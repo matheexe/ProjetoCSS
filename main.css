@@ -85,7 +85,7 @@ section h2{
 }
 
 .articles article a{
-    background-color:#66b75d;
+    background-color:#66b75d; /* Links */
     color:#e7eae7;
     padding: 8px;
     display: inline-block;
@@ -111,7 +111,7 @@ section h2{
 
 #sports .articles article a{
     margin-top: 8px;
-    background-color:#66b75d;
+    background-color:#66b75d; /* Links */
     border-radius: 30px;
 }
 
@@ -123,9 +123,10 @@ section h2{
 }
 
 #economy .articles article a{
-    background-color: #66b75d;
+    background-color: #66b75d; /* Links */
     margin-top: 8px;
     border-radius: 30px;
+    font-weight: bold;
 }
 
 
@@ -136,9 +137,10 @@ section h2{
 }
 
 #tecnology .articles article a{
-    background-color: #66b75d;
+    background-color: #66b75d; /* Links */
     margin-top: 8px;
     border-radius: 30px;
+    font-weight: bold;
 }
 
 
@@ -149,7 +151,8 @@ section h2{
 }
 
 #games .articles article a{
-    background-color: #66b75d;
+    background-color: #66b75d; /* Links */
     margin-top: 8px;
     border-radius: 30px;
+    font-weight: bold;
 }

@@ -7,7 +7,7 @@
 }
 
 body > header{
-    background-color:#162614;
+    background-color:#0e1114;
     padding:16px 0;
     color:#e7eae7;
     font-family: 'Hind Siliguri', Helvetica, sans-serif;
@@ -31,6 +31,7 @@ header li a{
     background-size: cover;
 }
 
+/* Data das postagens.*/
 .criaçãodata{
     font-family: 'Hind Siliguri', Helvetica, sans-serif;
 }
@@ -40,6 +41,8 @@ header li a{
     margin: 0 auto;
 }
 
+
+/* Artigos.*/
 .articles{
     display: flex;
     flex-wrap: wrap;
@@ -100,8 +103,9 @@ section h2{
 }
 
 
+/* Sessão de esporte.*/
 #sports{
-    background-color:#050604;
+    background-color:#080303;
     color: #e7eae7
 }
 
@@ -112,8 +116,9 @@ section h2{
 }
 
 
+/* Sessão de economia.*/
 #economy{
-    background-color:#1e1f19;
+    background-color:#0c1409;
     color: #e7eae7;
 }
 
@@ -123,3 +128,28 @@ section h2{
     border-radius: 30px;
 }
 
+
+/* Sessão de tecnologia.*/
+#tecnology{
+    background-color:#140808;
+    color: #e7eae7;
+}
+
+#tecnology .articles article a{
+    background-color: #66b75d;
+    margin-top: 8px;
+    border-radius: 30px;
+}
+
+
+/* Sessão de games.*/
+#games{
+    background-color: #0d0d12;
+    color: #e7eae7;
+}
+
+#games .articles article a{
+    background-color: #66b75d;
+    margin-top: 8px;
+    border-radius: 30px;
+}

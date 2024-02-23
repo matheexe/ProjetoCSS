@@ -1,7 +1,125 @@
-h1 {
-    color:antiquewhite;
+@import url(https://fonts.google.com/specimen/Hind+Siliguri?query=Hind+Siligur);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-seletor{
-    propriedade: valor;
+body > header{
+    background-color:#162614;
+    padding:16px 0;
+    color:#e7eae7;
+    font-family: 'Hind Siliguri', Helvetica, sans-serif;
 }
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    color: #e7eae7;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: bold;
+    background-size: cover;
+}
+
+.criaçãodata{
+    font-family: 'Hind Siliguri', Helvetica, sans-serif;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;
+
+}
+
+.articles article{
+    width: 30%;
+
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article{
+    margin-bottom: 16px;
+}
+
+section h2{
+    font-size: 32px;
+    font-family: 'Hind Siliguri', Helvetica, sans-serif;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article h3{
+    font-size: 24px;
+    font-family: 'Hind Siliguri', Helvetica, sans-serif;
+}
+
+.articles article a{
+    background-color:#66b75d;
+    color:#e7eae7;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Hind Siliguri', Helvetica, sans-serif;
+}
+
+
+#sports{
+    background-color:#050604;
+    color: #e7eae7
+}
+
+#sports .articles article a{
+    margin-top: 8px;
+    background-color:#66b75d;
+    border-radius: 30px;
+}
+
+
+#economy{
+    background-color:#1e1f19;
+    color: #e7eae7;
+}
+
+#economy .articles article a{
+    background-color: #66b75d;
+    margin-top: 8px;
+    border-radius: 30px;
+}
+

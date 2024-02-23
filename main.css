@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+* img{
+    width: 409.8px;
+    height: 277.77px;
+}
+
 body > header{
     background-color:#0e1114;
     padding:16px 0;
